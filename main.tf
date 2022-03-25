@@ -1,5 +1,5 @@
 module "network" {
-  source                 = "../../terraform-modules/tf-network-module"
+  source                 = "git::https://github.com/roboshop-blue-green/tf-network-module.git"
   AZ                     = var.AZ
   DEFAULT_ROUTE_TABLE_ID = var.DEFAULT_ROUTE_TABLE_ID
   DEFAULT_VPC_CIDR       = var.DEFAULT_VPC_CIDR
