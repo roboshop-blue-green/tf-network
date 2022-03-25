@@ -1,5 +1,0 @@
-bucket   = "terraform-b62"
-key      = "vpc/prod/terraform.tfstate"
-region   = "us-east-1"
-ENV      = "prod"
-VPC_CIDR = "10.50.0.0/16"
