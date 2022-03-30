@@ -38,3 +38,11 @@ output "INTERNAL_HOSTED_ZONE_NAME" {
   value = module.network.INTERNAL_HOSTED_ZONE_NAME
 }
 
+output "PUBLIC_HOSTED_ZONEID" {
+  value = module.network.PUBLIC_HOSTED_ZONEID
+}
+
+output "PUBLIC_HOSTED_ZONE_NAME" {
+  value = module.network.PUBLIC_HOSTED_ZONE_NAME
+}
+
