@@ -7,4 +7,4 @@ variable "PRIVATE_HOSTED_ZONE_ID" {}
 variable "PUBLIC_SUBNETS" {}
 variable "PRIVATE_SUBNETS" {}
 variable "VPC_CIDR" {}
-
+variable "PUBLIC_HOSTED_ZONE_ID" {}

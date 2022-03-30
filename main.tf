@@ -9,4 +9,5 @@ module "network" {
   PUBLIC_SUBNETS         = var.PUBLIC_SUBNETS
   PRIVATE_SUBNETS        = var.PRIVATE_SUBNETS
   VPC_CIDR               = var.VPC_CIDR
+  PUBLIC_HOSTED_ZONE_ID  = var.PUBLIC_HOSTED_ZONE_ID
 }
